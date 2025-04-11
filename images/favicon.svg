@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#2196F3" />
+  
+  <!-- Inner circle (darker blue) -->
+  <circle cx="16" cy="16" r="12" fill="#1976D2" />
+  
+  <!-- WiFi signal waves -->
+  <path d="M16,22 L13,19 A4.24,4.24 0 0 1 19,19 Z" fill="white" />
+  <path d="M16,22 L11,17 A7.07,7.07 0 0 1 21,17 Z" fill="white" opacity="0.8" />
+  <path d="M16,22 L9,15 A9.9,9.9 0 0 1 23,15 Z" fill="white" opacity="0.6" />
+</svg>

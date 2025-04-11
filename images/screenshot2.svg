@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600">
+  <!-- Phone frame -->
+  <rect x="10" y="10" width="280" height="580" rx="20" ry="20" fill="#333" />
+  <rect x="20" y="20" width="260" height="560" rx="10" ry="10" fill="#1976D2" />
+  
+  <!-- App header -->
+  <rect x="20" y="20" width="260" height="60" fill="#2196F3" />
+  <text x="40" y="55" font-family="Arial" font-size="18" fill="white">Network Details</text>
+  <circle cx="250" cy="50" r="15" fill="white" opacity="0.3" />
+  
+  <!-- Network details -->
+  <rect x="30" y="90" width="240" height="480" rx="5" ry="5" fill="white" opacity="0.9" />
+  
+  <!-- Network name -->
+  <text x="45" y="120" font-family="Arial" font-size="20" font-weight="bold" fill="#333">WiFi Network 1</text>
+  
+  <!-- Signal strength indicator -->
+  <rect x="45" y="140" width="210" height="30" rx="5" ry="5" fill="#f5f5f5" />
+  <rect x="45" y="140" width="180" height="30" rx="5" ry="5" fill="#4CAF50" />
+  <text x="140" y="160" font-family="Arial" font-size="14" fill="white">-45 dBm</text>
+  
+  <!-- Details list -->
+  <text x="45" y="200" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Details</text>
+  
+  <text x="45" y="230" font-family="Arial" font-size="14" fill="#666">BSSID:</text>
+  <text x="150" y="230" font-family="Arial" font-size="14" fill="#333">00:11:22:33:44:55</text>
+  
+  <text x="45" y="260" font-family="Arial" font-size="14" fill="#666">Channel:</text>
+  <text x="150" y="260" font-family="Arial" font-size="14" fill="#333">6 (2.4 GHz)</text>
+  
+  <text x="45" y="290" font-family="Arial" font-size="14" fill="#666">Security:</text>
+  <text x="150" y="290" font-family="Arial" font-size="14" fill="#333">WPA2-PSK (AES)</text>
+  
+  <text x="45" y="320" font-family="Arial" font-size="14" fill="#666">Frequency:</text>
+  <text x="150" y="320" font-family="Arial" font-size="14" fill="#333">2437 MHz</text>
+  
+  <text x="45" y="350" font-family="Arial" font-size="14" fill="#666">Bandwidth:</text>
+  <text x="150" y="350" font-family="Arial" font-size="14" fill="#333">20 MHz</text>
+  
+  <text x="45" y="380" font-family="Arial" font-size="14" fill="#666">First seen:</text>
+  <text x="150" y="380" font-family="Arial" font-size="14" fill="#333">10:30 AM</text>
+  
+  <text x="45" y="410" font-family="Arial" font-size="14" fill="#666">Last updated:</text>
+  <text x="150" y="410" font-family="Arial" font-size="14" fill="#333">11:45 AM</text>
+  
+  <text x="45" y="440" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Signal History</text>
+  
+  <!-- Simple signal history graph -->
+  <polyline points="45,500 75,490 105,495 135,480 165,485 195,470 225,475 255,460" 
+            stroke="#2196F3" stroke-width="3" fill="none" />
+  
+  <!-- Y-axis labels -->
+  <text x="30" y="460" font-family="Arial" font-size="10" fill="#666">-30</text>
+  <text x="30" y="480" font-family="Arial" font-size="10" fill="#666">-50</text>
+  <text x="30" y="500" font-family="Arial" font-size="10" fill="#666">-70</text>
+  <text x="30" y="520" font-family="Arial" font-size="10" fill="#666">-90</text>
+  
+  <!-- X-axis (time) -->
+  <line x1="45" y1="520" x2="255" y2="520" stroke="#666" stroke-width="1" />
+</svg>
